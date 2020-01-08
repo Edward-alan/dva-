@@ -1,0 +1,62 @@
+:global .conright {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+:global .conright .viewlimis {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+:global .conright .viewlimis ul {
+  width: 50%;
+  line-height: 50px;
+  display: flex;
+}
+
+:global .conright .viewlimis ul li {
+  margin: 0 15px;
+  border-bottom: 3px solid #071ff8;
+}
+
+:global .container {
+  width: 100%;
+  height: 100%;
+}
+
+:global .tab_title_wrap {
+  width: 100%;
+  height: 40px;
+}
+
+:global .tab_title {
+  padding: 0 50px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+}
+
+:global .active {
+  border-bottom: 2px solid #071ff8;
+}
+
+:global .tab_item_wrap {
+  width: 100%;
+}
+
+:global .tab_item {
+  height: 600px;
+  display: none;
+}
+
+:global .show {
+  display: block;
+}
+
+:global .authority {
+  margin: 25px 0;
+  padding: 0 15px;
+}
